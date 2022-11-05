@@ -15,3 +15,22 @@
   - 한개의 논리적 단위(트랜잭션)에 대한 작업이 성공적으로 끝났고 데이터베이스가 다시 일관된 상태에 있을 때, 이 트랜잭션이 행한 갱신 연산이 완료된 것을 트랜잭션 관리자에게 알려주는 연산
 - Rollback
   - Rollback 연산은 하나의 트랜잭션 처리가 비정상적으로 종료되어 데이터베이스의 일관성을 깨뜨렸을 때, 이 트랜잭션의 일부가 정상적으로 처리되었더라도 트랜잭션의 원자성을 구현하기 위해 이 트랜잭션이 행한 모든 연산을 취소(Undo)하는 연산
+
+### REST API
+
+- REST
+  - HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고, HTTP Method(POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD Operation을 적용하는 것
+- Rest API
+  - REST 기반으로 서비스 API를 구현한 것
+- RESTFUL API
+  - rest 의 규칙을 제대로 지킨 API
+  1. 슬래시 구분자는 계층 관계 나타날때
+  2. URI 마지막 문자로 슬래시 포함 x
+  3. 하이픈은 URI 가독성 높일떄
+  4. 밑줄은 URI에 사용 x
+  5. URI 경로는 소문자
+  6. 파일확장자는 URI포함 x
+
+### 닷넷
+
+- **닷넷 프레임워크**(.NET Framework)는 [마이크로소프트](https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8)에서 개발한 [윈도우](https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8_%EC%9C%88%EB%8F%84%EC%9A%B0) 프로그램 개발 및 실행 환경이다.
