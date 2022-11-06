@@ -34,3 +34,23 @@
 ### 닷넷
 
 - **닷넷 프레임워크**(.NET Framework)는 [마이크로소프트](https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8)에서 개발한 [윈도우](https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8_%EC%9C%88%EB%8F%84%EC%9A%B0) 프로그램 개발 및 실행 환경이다.
+
+### DB
+
+- RDBMS
+  - 관계형 데이터베이스(RDB)는 테이블, 행, 열의 정보를 구조화하는 방식. RDB에는 테이블을 조인하여 정보 간 관계 또는 링크를 설정할 수 있는 기능이 있어, 여러 데이터 포인트 간의 관계를 쉽게 이해하고 정보를 얻을 수 있다.
+  - 관계형 데이터베이스 관리 시스템(RDBMS)은 관계형 데이터베이스를 만들고 업데이트하고 관리하는 데 사용하는 프로그램. 잘 알려진 RDBMS의 예로는 MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, Oracle Database가 있다.
+- SQL
+  - Structured Query Language : 구조적 쿼리 언어, 데이터베이스와의 통신을 위해 고안된 언어
+  - 몇 개의 단어로만 구성, 데이터베이스에서 데이터를 읽고 데이터베이스에 데이터를 쓰기 위한 용도로 만들어짐
+  -
+- MSSQL
+  - MSSQL의 특징은 오라클이라 MYSQL과는 다르게 window server에서만 구동이 되고 C#과는 가장 높은 호환성을 자랑하는 DBMS
+- PostgreSQL
+  - PostgreSQL은 오픈 소스 객체-관계형 데이터베이스 시스템(ORDBMS)으로, Enterprise급 DBMS의 기능과 차세대 DBMS에서나 볼 수 있을 법한 기능들을 제공한다.약 20여년의 오랜 역사를 갖는 PostgreSQL은 다른 관계형 데이터베이스 시스템과 달리 연산자, 복합 자료형, 집계 함수, 자료형 변환자, 확장 기능 등 다양한 데이터베이스 객체를 사용자가 임의로 만들 수 있는 기능을 제공함으로써 마치 새로운 하나의 프로그래밍 언어처럼 무한한 기능을 손쉽게 구현할 수 있다.
+  - 관계형 DBMS의 기본적인 기능인 트랜잭션과 ACID(Atomicity, Consistency, Isolation, Durability)를 지원
+- MariaDB
+  - MySQL에서 떨어져나온 RDBMS가 MariaDB
+  - MySQL도 상업적인 용도를 제외하고는 교육, 개발용인 커뮤니티 버전은 무료로 제공하고 있습니다. 하지만 커뮤니티 버전은 실제 서비스에 사용하기에는 성능이 따라주질 않죠. 하지만 MariaDB는 상업용을 사용해야 더 좋은 성능을 내는 그런 개념없이 무료로 모든 기능을 사용할 수 있다.
+  - mysql 친화적, mySQL에서 사용하고 있는 sQL문, 명령문을 그대로 채택하고 있는 경우가 많음
+  - mysql에서 제공하지 않는 독자적인 기능 및 구문도 제공
